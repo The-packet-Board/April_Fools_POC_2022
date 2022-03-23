@@ -5,6 +5,7 @@ On the very first line, we are going to write:
 We do this to prevent the prompt and contents of the batch file from being displayed on the screen, so only the output we want the victim to see is visible. The @ makes the output of the echo off command hidden as well.
 
 In the following three lines, we will inform the user that we found a fake danger, and we will use the echo command to make this believable:
+
 > echo WINDOWS HAS DETECTED A VIRUS, WOULD YOU LIKE TO TERMINATE?
 > echo -
 > echo PROCEED WITH VIRUS TERMINATION (Y/N)
